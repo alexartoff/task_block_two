@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "task_block_two"
+version = "0.1.0"
+description = "задачи из второго блока курса python-разработчик"
+authors = ["alexandertarakanov <alex.artoff@gmail.com>"]
+packages = [{ include = "block_two" },]
+
+[tool.poetry.scripts]
+task2-lists = "block_two.scripts.task2_lists:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
