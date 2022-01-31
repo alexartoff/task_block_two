@@ -7,6 +7,7 @@ packages = [{ include = "block_two" },]
 
 [tool.poetry.scripts]
 task2-lists = "block_two.scripts.task2_lists:main"
+task4-dubl = "block_two.scripts.task4_dubl:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
