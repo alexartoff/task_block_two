@@ -6,8 +6,9 @@ authors = ["alexandertarakanov <alex.artoff@gmail.com>"]
 packages = [{ include = "block_two" },]
 
 [tool.poetry.scripts]
-task2-lists = "block_two.scripts.task2_lists:main"
-task4-dubl = "block_two.scripts.task4_dubl:main"
+t2-lists = "block_two.scripts.task2_lists:main"
+t4-dubl = "block_two.scripts.task4_dubl:main"
+t5-rotate = "block_two.scripts.task5_rotate:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
