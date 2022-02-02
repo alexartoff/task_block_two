@@ -11,6 +11,7 @@ t4-dubl = "block_two.scripts.task4_dubl:main"
 t5-rotate = "block_two.scripts.task5_rotate:main"
 t6-rotate-lr = "block_two.scripts.task6_rotate_left_right:main"
 t7-find-index = "block_two.scripts.task7_find_index:main"
+t8-find-second = "block_two.scripts.task8_find_second_index:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

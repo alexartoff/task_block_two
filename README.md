@@ -4,4 +4,5 @@
 3. task "rotate" (`poetry run t5-rotate`)  
 4. task "rotate left/right" (`poetry run t6-rotate-lr`)  
 5. task "find index" (`poetry run t7-find-index`)  
-6.  
+6. task "find second index (`poetry run t8-find-second`)"  
+7.  
