@@ -5,6 +5,7 @@
 4. task "rotate left/right" (`poetry run t6-rotate-lr`)  
 5. task "find index" (`poetry run t7-find-index`)  
 6. task "find second index" (`poetry run t8-find-second`)  
-free task "hamming weight" (`poetry run free-hamming`)  
+free task "Hamming's weight" (`poetry run free-hamming`)  
 free task "Pascal's triangle" (`poetry run free-pascal`)  
-free task..
+free task "enlarge" (`poetry run free-enlarge`)  
+free task ..

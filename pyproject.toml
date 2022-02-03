@@ -14,6 +14,7 @@ t7-find-index = "block_two.scripts.task7_find_index:main"
 t8-find-second = "block_two.scripts.task8_find_second_index:main"
 free-hamming = "block_two.scripts.free_hamming_weight:main"
 free-pascal = "block_two.scripts.free_pascal_tri:main"
+free-enlarge = "block_two.scripts.free_enlarge:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
