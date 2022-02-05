@@ -10,4 +10,5 @@ free task "Pascal's triangle" (`poetry run free-pascal`)
 free task "enlarge" (`poetry run free-enlarge`)  
 free task "length of last word" (`poetry run free-last-word`)  
 free task "chunk iterable sequense" (`poetry run free-chunk`)  
-free task ..
+free task "is continuous sequence?" (`poetry run free-contiseque`)  
+free task ..  
