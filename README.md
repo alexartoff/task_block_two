@@ -8,5 +8,6 @@
 free task "Hamming's weight" (`poetry run free-hamming`)  
 free task "Pascal's triangle" (`poetry run free-pascal`)  
 free task "enlarge" (`poetry run free-enlarge`)  
-free task "length of last word" (`poetry run free-last-word`)
-free task .. 
+free task "length of last word" (`poetry run free-last-word`)  
+free task "chunk iterable sequense" (`poetry run free-chunk`)  
+free task ..
