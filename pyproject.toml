@@ -18,6 +18,8 @@ free-enlarge = "block_two.scripts.free_enlarge:main"
 free-last-word = "block_two.scripts.free_length_last_word:main"
 free-chunk = "block_two.scripts.free_chunk:main"
 free-contiseque = "block_two.scripts.free_continuous_sequence:main"
+free-find-long = "block_two.scripts.free_find_longest_length:main"
+free-compare = "block_two.scripts.free_compare_version:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

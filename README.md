@@ -9,6 +9,8 @@ free task "Hamming's weight" (`poetry run free-hamming`)
 free task "Pascal's triangle" (`poetry run free-pascal`)  
 free task "enlarge" (`poetry run free-enlarge`)  
 free task "length of last word" (`poetry run free-last-word`)  
-free task "chunk iterable sequense" (`poetry run free-chunk`)  
+free task "chunk iterable sequence" (`poetry run free-chunk`)  
 free task "is continuous sequence?" (`poetry run free-contiseque`)  
+free task "find longest length (not repeated)" --- NOT SOLVED  
+free task "compare version" (`poetry run free-compare`)  
 free task ..  
