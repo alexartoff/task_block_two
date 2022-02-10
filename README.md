@@ -14,4 +14,5 @@ free task "is continuous sequence?" (`poetry run free-contiseque`)
 free task "find longest length (not repeated)" --- NOT SOLVED  
 free task "compare version" (`poetry run free-compare`)  
 free task "summary ranges" (`poetry run free-summ-range`)  
-free task ..  
+free task "matrix transpony))" (`poetru run free-matrix`)  
+free task..  
