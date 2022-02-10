@@ -15,4 +15,5 @@ free task "find longest length (not repeated)" --- NOT SOLVED
 free task "compare version" (`poetry run free-compare`)  
 free task "summary ranges" (`poetry run free-summ-range`)  
 free task "matrix transpony))" (`poetru run free-matrix`)  
-free task..  
+free task "marror matrix" (`poetry run free-mtxmir`)  
+free task ..  
