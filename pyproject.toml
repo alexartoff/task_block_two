@@ -23,6 +23,7 @@ free-compare = "block_two.scripts.free_compare_version:main"
 free-summ-range = "block_two.scripts.free_summary_ranges:main"
 free-matrix = "block_two.scripts.free_matrix_trans:main"
 free-mtxmir = "block_two.scripts.free_matrix_mirror:main"
+free-summ-int = "block_two.scripts.free_summ_interval:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
