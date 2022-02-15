@@ -18,5 +18,5 @@ free task "matrix transpony))" (`poetru run free-matrix`)
 free task "mirror matrix" (`poetry run free-mtxmir`)  
 free task "sum of intervals" (`poetry run free-summ-int`)  
 free task "reverse polish notation" (`poetry run free-rpn`)  
-free task "snail path" (`poetry run free-snail`)  
+free task "snail path" (`poetry run free-snail`) --- NEED FIX  
 free task ..  
