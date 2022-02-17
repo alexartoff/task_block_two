@@ -26,6 +26,7 @@ free-mtxmir = "block_two.scripts.free_matrix_mirror:main"
 free-summ-int = "block_two.scripts.free_summ_interval:main"
 free-rpn = "block_two.scripts.free_polish_notation:main"
 free-snail = "block_two.scripts.free_snail_path:main"
+free-mtrxmult = "block_two.scripts.free_matrix_multi:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
