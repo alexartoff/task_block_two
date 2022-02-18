@@ -20,4 +20,5 @@ free task "sum of intervals" (`poetry run free-summ-int`)
 free task "reverse polish notation" (`poetry run free-rpn`)  
 free task "snail path" (`poetry run free-snail`)  
 free task "matrix multiply" (`poetry run free-mtrxmult`)  
+free task "chunk infinity sequence" (`poetry run free-ichunks`)  
 free task ..  
