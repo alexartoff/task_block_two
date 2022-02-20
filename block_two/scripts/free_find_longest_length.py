@@ -2,29 +2,41 @@
 
 
 def find_longest_length(txt):
-    ntxt = txt[:1]
-    for ch in txt:
-        print('for ch={} in txt >>> ntxt={}'.format(ch, ntxt))
-        if check_str(ch, ntxt):
-            ntxt += ch
-            # print('+++', ntxt, ch)
-        else:
-            ntxt += ''
-            # print('---', ntxt, ch)
-    print(ntxt, len(ntxt))
-
-
-def check_str(ch, txt):
-    print('>>> ch="{}" - ntxt="{}"'.format(ch, txt))
-    if txt.count(ch) >= 1:
-        return False
+    output = []
+    if txt == '':
+        return 0
+    stop = False
+    while not stop:
+        txt, output, stop = make_lst(txt, output, stop)
     else:
-        return True
+        output.sort(key=len)
+        # print(len(output[-1]), output[-1], output)
+        return len(output[-1])
+
+
+def make_lst(txt, lst, stop):
+    tmp = ''
+    for ch in txt:
+        if is_uniq(ch, tmp):
+            tmp += ch
+            stop = True
+        else:
+            lst.append(tmp)
+            txt = txt[(txt.find(ch) + 1):]
+            stop = False
+            return txt, lst, stop
+    lst.append(tmp)
+    return txt, lst, stop
+
+
+def is_uniq(ch, txt):
+    if txt.count(ch) > 0:
+        return False
+    return True
 
 
 def main():
     txt_a = '1234561qweqwer'
-    txt_b = 'a'
     print(find_longest_length(txt_a))
 
 

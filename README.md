@@ -11,7 +11,7 @@ free task "enlarge" (`poetry run free-enlarge`)
 free task "length of last word" (`poetry run free-last-word`)  
 free task "chunk iterable sequence" (`poetry run free-chunk`)  
 free task "is continuous sequence?" (`poetry run free-contiseque`)  
-free task "find longest length (not repeated)" --- NOT SOLVED  
+free task "find longest length" (`poetry run free-find-long`)  
 free task "compare version" (`poetry run free-compare`)  
 free task "summary ranges" (`poetry run free-summ-range`)  
 free task "matrix transpony))" (`poetru run free-matrix`)  
